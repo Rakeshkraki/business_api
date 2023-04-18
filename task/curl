@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"first_name": "John", "last_name": "Doe", "legal_name": "John Doe Corp", "aadhaar_number": "123456789012", "pan_number": "ABCDE1234F", "gstin_number": "12ABCFG5678H", "address": "123 Main St, Anytown", "state_code": "NY", "pin_code": "12345"}' http://127.0.0.1:5000/api/businesses
